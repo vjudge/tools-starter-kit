@@ -76,6 +76,8 @@ package-lock.json
 yarn.lock
 
 # personal development config
+config/development-*
+config/test-*
 *vjudge.*
 
 # dotenv environment variables file
@@ -135,6 +137,8 @@ coverage
 # nyc test coverage
 .nyc_output
 
+# jest test reports
+junit.xml
 
 # TypeScript v1 declaration files
 typings/
